@@ -13,6 +13,8 @@
 		5310A3A223F60EDF005EDD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5310A3A023F60EDF005EDD5A /* Main.storyboard */; };
 		5310A3A423F60EE0005EDD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5310A3A323F60EE0005EDD5A /* Assets.xcassets */; };
 		5310A3A723F60EE0005EDD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5310A3A523F60EE0005EDD5A /* LaunchScreen.storyboard */; };
+		5310A3B123F61A56005EDD5A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310A3B023F61A56005EDD5A /* Book.swift */; };
+		5310A3BB23F622CF005EDD5A /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310A3BA23F622CF005EDD5A /* BookDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5310A3A323F60EE0005EDD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5310A3A623F60EE0005EDD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5310A3A823F60EE0005EDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5310A3B023F61A56005EDD5A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		5310A3BA23F622CF005EDD5A /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				5310A39A23F60EDF005EDD5A /* AppDelegate.swift */,
 				5310A39C23F60EDF005EDD5A /* SceneDelegate.swift */,
 				5310A39E23F60EDF005EDD5A /* ViewController.swift */,
+				5310A3B023F61A56005EDD5A /* Book.swift */,
 				5310A3A023F60EDF005EDD5A /* Main.storyboard */,
 				5310A3A323F60EE0005EDD5A /* Assets.xcassets */,
 				5310A3A523F60EE0005EDD5A /* LaunchScreen.storyboard */,
 				5310A3A823F60EE0005EDD5A /* Info.plist */,
+				5310A3BA23F622CF005EDD5A /* BookDetailsViewController.swift */,
 			);
 			path = iOSCL4BookTracker;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5310A3B123F61A56005EDD5A /* Book.swift in Sources */,
 				5310A39F23F60EDF005EDD5A /* ViewController.swift in Sources */,
+				5310A3BB23F622CF005EDD5A /* BookDetailsViewController.swift in Sources */,
 				5310A39B23F60EDF005EDD5A /* AppDelegate.swift in Sources */,
 				5310A39D23F60EDF005EDD5A /* SceneDelegate.swift in Sources */,
 			);
